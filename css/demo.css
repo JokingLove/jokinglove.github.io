@@ -1,4 +1,5 @@
-﻿@font-face {
+﻿
+@font-face {
   font-family: 'icons';
   src: url("font/icons.eot");
   src: url(".font/icons.eot?#iefix") format('embedded-opentype'), url("font/icons.woff") format('woff'), url("font/icons.ttf") format('truetype'), url("font/icons.svg#icons") format('svg');
@@ -127,11 +128,11 @@ a{
 	padding: 5px 0px;
 }
 .codrops-demos a{
-    display: inline-block;
+  display: inline-block;
 	margin: 0px 4px;
 	padding: 0px 6px;
 	color: #aaa;
-	line-height: 20px;	
+	line-height: 20px;
 	font-size: 13px;
 	text-shadow: 1px 1px 1px #fff;
 	border: 1px solid #fff;
