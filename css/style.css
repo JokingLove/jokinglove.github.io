@@ -199,7 +199,7 @@ h3, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h3 {
-  font-size: 16px;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
@@ -1330,19 +1330,29 @@ input[type="text"] {
 	 font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 	 color: #fff;
 }
-
+#fh5co-header{
+	overflow: hidden;
+	z-index: 0;
+}
 .copyright{
 	width:333px;
  	color: #fff;
  	margin: 0 auto;
  	padding: 0;
- 	
  	font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size:15px;
-  color: #fff;
+	font-size:15px;
+	color: #fff;
+	z-index:2;
 }
+
+.overlay{
+	z-index: -100;
+}
+
+
 /*****Í¼Æ¬¶¯Ð§*****/
 .container .profile-thumb:hover {
+  cursor: pointer;
   -webkit-animation: btnGroups 1s linear;
   -webkit-animation: btnGroups 1s linear;
   -moz-animation: btnGroups 1s linear;
