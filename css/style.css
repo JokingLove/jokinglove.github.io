@@ -1349,7 +1349,7 @@ input[type="text"] {
 	z-index: -100;
 }
 
-
+  
 /*****Í¼Æ¬¶¯Ð§*****/
 .container .profile-thumb:hover {
   cursor: pointer;
@@ -1359,6 +1359,16 @@ input[type="text"] {
   -ms-animation: btnGroups 1s linear;
   animation: btnGroups 1s linear;
 }
+
+.profile-thumb:hover {
+  cursor: pointer;
+  -webkit-animation: btnGroups 1s linear;
+  -webkit-animation: btnGroups 1s linear;
+  -moz-animation: btnGroups 1s linear;
+  -ms-animation: btnGroups 1s linear;
+  animation: btnGroups 1s linear;
+}
+
 @-webkit-keyframes btnGroups {
   0% {
     -webkit-transform: scale(1.2, 0.8);
