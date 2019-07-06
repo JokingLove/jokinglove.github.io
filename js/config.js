@@ -1,18 +1,16 @@
-const langs = [
-  { title: 'English', path: '/home', matchPath: /^\/(home|ecosystem|support)/ },
-  { title: '简体中文', path: '/zh-Hans/', matchPath: /^\/zh-Hans/ },
-];
-
 docute.init({
-  landing: 'landing.html',
-  title: 'hello',
-  nav: [
-    // 首页
-    {title: 'Home', path: '/'},
-    // 中文文档
-    {title: '中文文档', path: '/language/chinese'}
-  ],
+  title: 'JOKING',
+  landing: true,
   plugins: [
       evanyou()
   ]
 });
+
+// 百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1eb8a2c234ac5bf6db839a19e3fbb5ee";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();

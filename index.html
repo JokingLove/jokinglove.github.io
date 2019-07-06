@@ -4,32 +4,21 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>My Awesome Doc</title>
+  <title>JokingLove | 认真你就输了！</title>
   <!-- docute 的 CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/docute/dist/docute.css">
+	<link rel="stylesheet" href="https://unpkg.com/docute/dist/docute.css">
+	<!-- ali font -->
+	<link rel="stylesheet" href="//at.alicdn.com/t/font_1280381_8gpb7cgj40d.css">
+
 </head>
 <body>
-  <div id="app"></div>
+	<div id="app"></div>
 	<!-- 加载 docute 的 js 库 -->
-	<script src="https://cdn.jsdelivr.net/npm/docute-evanyou/dist/evanyou.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/docute-evanyou/dist/evanyou.min.js"></script> 
 	<script src="https://cdn.jsdelivr.net/npm/docute@3.4.12/dist/docute.js"></script>
-    <!-- 你也可以把包含 $config 配置的脚本放到单独的文件里 -->
-  <!-- 比如 config.js -->
-  <script>
-    docute.init({
-			title:'hello',
-			// 配置...
-			landing: true,
-			nav: [
-				// 首页
-				{title: 'Home', path: '/'},
-				// 中文文档
-				{title: '中文文档', path: '/language/chinese'}
-			],
-			plugins: [
-				evanyou()
-			]
-    })
-  </script>
+  <!-- 你也可以把包含 $config 配置的脚本放到单独的文件里 -->
+	<!-- 比如 config.js -->
+	<script src="./js/config.js"></script>
+ 
 </body>
 </html>
