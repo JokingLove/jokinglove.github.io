@@ -91,18 +91,10 @@ a i.iconfont{ font-size: 38px !important; color: #999 !important; margin: 0 20px
 			animation: btnGroups 1s linear;
 		} 
 
-		/* .avatar:hover {
-			cursor: pointer;
-			-webkit-animation: btnGroups 1s linear;
-			-webkit-animation: btnGroups 1s linear;
-			-moz-animation: btnGroups 1s linear;
-			-ms-animation: btnGroups 1s linear;
-			animation: btnGroups 1s linear;
-		} */
-
     footer{
       margin-top: 10%;
       color: #999;
+      text-align: center;
     }
 
     
