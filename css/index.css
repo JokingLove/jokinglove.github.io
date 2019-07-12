@@ -1,4 +1,4 @@
-a i.iconfont{ font-size: 38px !important; color: #999 !important; margin: 0 20px;}
+    a i.iconfont{ font-size: 38px !important; color: #999 !important; margin: 0 20px;}
     a i.mail-size{font-size: 37px !important}
     a i.qzone-size{font-size: 43px !important}
     a i.iconfont:hover {color:#836FFF !important;}
@@ -96,6 +96,10 @@ a i.iconfont{ font-size: 38px !important; color: #999 !important; margin: 0 20px
       color: #999;
       text-align: center;
     }
+
+    footer .busuanzi-count {color: #ca67e5;}
+
+    footer .busuanzi_sider {color: #6fb4f3}
 
     
 @-webkit-keyframes btnGroups {
