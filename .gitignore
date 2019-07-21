@@ -1,3 +1,7 @@
 .DS_Store
 *.bak
 *.sh
+node_modules/*
+package*
+DevResume-Theme
+resume*
