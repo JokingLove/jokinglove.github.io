@@ -12,7 +12,7 @@
       height: 170px; 
       border-radius: 50%;
       background-size: cover !important;
-      background: url(../images/user-3.jpg);
+      background: url(../images/joking.jpeg);
     }
 
     h3 {
@@ -87,7 +87,6 @@
         border-color: #42b983;
         color: #42b983;
         text-decoration: none;
-
     }
 
     .avatar:hover {
