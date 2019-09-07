@@ -75,6 +75,12 @@
         color: #333;
     }
 
+    .landing-buttons .button1 {transform: rotate(-28deg);}
+    .landing-buttons .button2 {transform: rotate(32deg);}
+    .landing-buttons .button3 {transform: rotate(-20deg);}
+    .landing-buttons .button4 {transform: rotate(25deg);}
+
+
     .box-shadow:hover,.avatar:hover,.landing-buttons a i:hover,.landing-button:hover{
       -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
       box-shadow: 0 15px 30px rgba(0,0,0,0.1);
