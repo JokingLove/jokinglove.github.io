@@ -84,8 +84,32 @@
     .box-shadow:hover,.avatar:hover,.landing-buttons a i:hover,.landing-button:hover{
       -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
       box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-      -webkit-transform: translate3d(0, -2px, 0);
-      transform: translate3d(0, -2px, 0);
+      transition:1.5s;
+      -webkit-transform: 1s;
+      /* transform: translate3d(0, -2px, 0); */
+    }
+
+    .landing-buttons a:nth-child(odd):hover{
+      -webkit-transform: rotate(360deg) scale(1); 
+      -moz-transform: rotate(360deg) scale(1);
+      -ms-transform: rotate(360deg) scale(1);
+      -o-transform: rotate(360deg) scale(1);
+    }
+
+
+    /* .landing-buttons a i:hover {
+      animation: i-aha 0.5s infinite;
+    }
+    @keyframes i-aha {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    } */
+
+    .landing-buttons a:nth-child(even):hover{
+      -webkit-transform: rotate(-360deg) scale(1); 
+      -moz-transform: rotate(-360deg) scale(1);
+      -ms-transform: rotate(-360deg) scale(1);
+      -o-transform: rotate(-360deg) scale(1);
     }
 
     .landing-button:hover {
